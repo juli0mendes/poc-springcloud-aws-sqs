@@ -1,0 +1,14 @@
+server:
+  port: ${port:8081}
+
+spring:
+  application:
+    name: poc-spring-cloud-aws-sqs-sub
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/poc-aws-sqs
+      database: poc-aws-sqs
+
+  profiles:
+    active: local

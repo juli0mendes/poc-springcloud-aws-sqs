@@ -1,0 +1,9 @@
+server:
+  port: ${port:8080}
+
+spring:
+  application:
+    name: poc-spring-cloud-aws-sqs-pub
+
+  profiles:
+    active: local
