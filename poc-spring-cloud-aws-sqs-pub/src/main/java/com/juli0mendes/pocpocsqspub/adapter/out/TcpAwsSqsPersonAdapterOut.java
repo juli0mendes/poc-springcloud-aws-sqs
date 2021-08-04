@@ -28,11 +28,8 @@ public class TcpAwsSqsPersonAdapterOut implements PersonBrokerPortOut {
     }
 
     @Override
-    public void publishToQueueTest1(String name) throws Exception {
+    public void publishToQueueTest1(PersonDto personDto) throws Exception {
         MessageChannel messageChannel = new QueueMessageChannel(this.amazonSqs, QUEUE_NAME);
-
-        PersonDto personDto = new PersonDto();
-        personDto.setName(name);
 
         String messagePayload = this.objectMapper.writeValueAsString(personDto);
 

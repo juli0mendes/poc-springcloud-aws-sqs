@@ -20,6 +20,6 @@ public class PersonCore implements PersonPortIn {
 
     @Override
     public void createOnExternalSystem(PersonDto personDto) throws Exception {
-        this.personBrokerPortOut.publishToQueueTest1(personDto.getName());
+        this.personBrokerPortOut.publishToQueueTest1(personDto);
     }
 }
