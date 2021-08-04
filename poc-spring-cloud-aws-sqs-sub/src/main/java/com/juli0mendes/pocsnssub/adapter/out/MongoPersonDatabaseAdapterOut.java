@@ -29,11 +29,10 @@ public class MongoPersonDatabaseAdapterOut implements PersonDatabasePortOut {
         if (personDto.getId() != null) {
             personExisting = this.mongoPersonRepository.findById(personDto.getId());
 
-            if (personExisting.isEmpty())
+            if (!personExisting.isEmpty())
                 return this.mongoPersonRepository.save(Person.update(personExisting.get().getId(), personDto.getName(), personExisting.get().getCreatedAt()));
         }
 
         return this.mongoPersonRepository.save(Person.create(personDto.getName()));
-
     }
 }
