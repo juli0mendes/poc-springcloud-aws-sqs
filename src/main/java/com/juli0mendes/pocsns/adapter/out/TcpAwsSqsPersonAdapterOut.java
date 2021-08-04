@@ -1,10 +1,9 @@
 package com.juli0mendes.pocsns.adapter.out;
 
 import com.amazonaws.services.sqs.AmazonSQSAsync;
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.juli0mendes.pocsns.adapter.in.PersonDto;
-import com.juli0mendes.pocsns.ports.out.PersonBrokerPortOut;
+import com.juli0mendes.pocsns.application.ports.out.PersonBrokerPortOut;
 import io.awspring.cloud.messaging.core.QueueMessageChannel;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

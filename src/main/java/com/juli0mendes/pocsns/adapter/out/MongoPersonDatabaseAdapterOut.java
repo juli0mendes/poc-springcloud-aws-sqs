@@ -1,13 +1,12 @@
 package com.juli0mendes.pocsns.adapter.out;
 
 import com.juli0mendes.pocsns.adapter.in.PersonDto;
-import com.juli0mendes.pocsns.domain.Person;
-import com.juli0mendes.pocsns.ports.out.PersonDatabasePortOut;
-import com.juli0mendes.pocsns.repository.MongoPersonRepository;
+import com.juli0mendes.pocsns.application.domain.Person;
+import com.juli0mendes.pocsns.application.ports.out.PersonDatabasePortOut;
+import com.juli0mendes.pocsns.adapter.out.repository.MongoPersonRepository;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.stereotype.Service;
 
-import java.time.Instant;
 import java.util.Optional;
 
 @Service

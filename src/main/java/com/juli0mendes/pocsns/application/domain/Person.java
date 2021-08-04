@@ -1,4 +1,4 @@
-package com.juli0mendes.pocsns.domain;
+package com.juli0mendes.pocsns.application.domain;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.PropertyNamingStrategy;

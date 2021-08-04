@@ -1,4 +1,4 @@
-package com.juli0mendes.pocsns.config;
+package com.juli0mendes.pocsns.application.config;
 
 public interface BrokerOutput {
 

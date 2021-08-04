@@ -2,14 +2,14 @@ package com.juli0mendes.pocsns.adapter.in;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.juli0mendes.pocsns.ports.in.PersonPortIn;
+import com.juli0mendes.pocsns.application.ports.in.PersonPortIn;
 import io.awspring.cloud.messaging.listener.annotation.SqsListener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.messaging.handler.annotation.Header;
 import org.springframework.stereotype.Service;
 
-import static com.juli0mendes.pocsns.config.BrokerInput.QUEUE_TEST_1;
+import static com.juli0mendes.pocsns.application.config.BrokerInput.QUEUE_TEST_1;
 import static io.awspring.cloud.messaging.listener.SqsMessageDeletionPolicy.ON_SUCCESS;
 
 @Service

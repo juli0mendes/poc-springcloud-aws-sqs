@@ -1,6 +1,6 @@
-package com.juli0mendes.pocsns.repository;
+package com.juli0mendes.pocsns.adapter.out.repository;
 
-import com.juli0mendes.pocsns.domain.Person;
+import com.juli0mendes.pocsns.application.domain.Person;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

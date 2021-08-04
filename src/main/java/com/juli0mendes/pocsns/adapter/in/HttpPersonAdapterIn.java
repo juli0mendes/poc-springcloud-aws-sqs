@@ -1,7 +1,6 @@
 package com.juli0mendes.pocsns.adapter.in;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.juli0mendes.pocsns.ports.in.PersonPortIn;
+import com.juli0mendes.pocsns.application.ports.in.PersonPortIn;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;

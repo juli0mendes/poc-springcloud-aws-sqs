@@ -1,9 +1,9 @@
-package com.juli0mendes.pocsns.core;
+package com.juli0mendes.pocsns.application.core;
 
 import com.juli0mendes.pocsns.adapter.in.PersonDto;
-import com.juli0mendes.pocsns.ports.in.PersonPortIn;
-import com.juli0mendes.pocsns.ports.out.PersonBrokerPortOut;
-import com.juli0mendes.pocsns.ports.out.PersonDatabasePortOut;
+import com.juli0mendes.pocsns.application.ports.in.PersonPortIn;
+import com.juli0mendes.pocsns.application.ports.out.PersonBrokerPortOut;
+import com.juli0mendes.pocsns.application.ports.out.PersonDatabasePortOut;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;

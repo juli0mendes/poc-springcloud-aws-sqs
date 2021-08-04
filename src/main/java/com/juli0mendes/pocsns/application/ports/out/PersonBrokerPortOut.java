@@ -1,4 +1,4 @@
-package com.juli0mendes.pocsns.ports.out;
+package com.juli0mendes.pocsns.application.ports.out;
 
 public interface PersonBrokerPortOut {
 
